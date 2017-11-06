@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import javax.swing.JOptionPane;
 /**
  *Nombre: Claudia Veas M.
  * @author LAB03
@@ -13,45 +14,46 @@
  */
 public class ClaseContraseña 
 {
-   public static void main(String[] args)
-   {
-   int contraseña= numero;
-   int index = 2403;
-   while(index==3)
+   
+
+     public static void main(String[] args) 
     {
+   int contraseña = 2403 ;
+   int index = 3;
+   int maximo=3;
+    while(index !=3 )
+        {
         //stop = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
-           System.out.println(index);
-           index++;
-           
-   }
+        System.out.println(index);
+        index=3;//Incrementamos la variable en 1
+                
+      }
     
-    contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero"));
-
-    if (numero!=contraseña)
-    {
-    JOptionPane.showMessageDialog(null, "Intente nuevamente");
-    } 
-    else
-    {
+   contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese contraseña"));
+        if (contraseña!=3)
+        {
+            JOptionPane.showMessageDialog(null, "Intentelo nuevamente");  
+        }
+        else
+        {
+            
+        }
+        contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese contraseña nuevamente"));
+        if (contraseña!=3)
+        {
+          JOptionPane.showMessageDialog(null, "Intentelo nuevamente");   
+        }
+        
+        else
+        {
+        }
+         contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese ultimo intento"));
+        if (contraseña!=3) 
+        {
+         JOptionPane.showMessageDialog(null, "Cuenta bloqueada, comuniquese con soporte tecnico");   
+        }
+        
+                
+      }
     
-    
-         if (contraseña==) 
-       {
-         JOptionPane.showMessageDialog(null, "Intente nuevamente");  
-       }
-   
-         else
-         {
-         
-         }
-       if (contraseña!=) 
-       {
-           
-       }
-   
-   
     }
-   
-   }  
-
-}
